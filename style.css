@@ -70,23 +70,6 @@ img{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mobile-background{
     width:100vw;
         position:absolute;
@@ -101,10 +84,6 @@ img{
 
 
 
-
-
-
-
 @media (min-width: 375px){
     .mobile-background{
         
@@ -112,5 +91,50 @@ img{
       }
       .desktop-background{
         visibility:hidden;
+      }
+}
+
+
+
+@media (min-width: 775px){
+    
+      .headline{
+        text-align:left;
+        max-width:25rem;
+      }
+      .container{
+        display:flex;
+        flex-wrap:wrap;
+      }
+      .rating{
+        display:flex;
+width:100%;
+        margin:10px;
+        padding:15px 30px;
+        position:relative;
+      }
+      .rating svg{
+        margin:2.5px
+      }
+      .rating span{
+        margin:0 25px;
+      }
+      .ratings{
+        width:100%;
+        max-width:45vw;
+      }
+      .ratings :nth-of-type(2){
+        left:25px
+      }
+      .ratings :nth-of-type(3){
+        left:50px
+      }
+      .reviews{
+        display:flex;
+        
+      }
+      .review{
+        margin:10px;
+        max-width:375px;
       }
 }
